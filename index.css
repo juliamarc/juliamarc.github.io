@@ -1,3 +1,49 @@
 body {
-  background-image: url(gears.svg);
+	background-image: url(gears.svg);
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%)
+}
+
+#name {
+	font-family: "Courier New";
+	font-size: 50pt;
+}
+
+#links {
+	display: flex;
+	justify-content: center;
+}
+
+.fa {
+	font-size:50pt;
+	padding: 5px;
+}
+
+#gh-icon {
+	color: #000;
+}
+
+#gh-icon:hover {
+	color: #444;
+}
+
+#li-icon {
+	color: #0e76a8;
+	border-radius: 50%;
+}
+
+#li-icon:hover {
+	color: #108bc6;
+}
+
+#gl-icon {
+	color: #fc6d26;
+	border-radius: 50%;
+}
+
+#gl-icon:hover {
+	color: #fca326;
 }
